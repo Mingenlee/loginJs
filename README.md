@@ -8,4 +8,4 @@
 # turn of login user name and password for mongoose
 #
 #
-
+# insert email email1@email1
