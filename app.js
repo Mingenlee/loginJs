@@ -1,3 +1,5 @@
+// app.js
+
 const express = require('express');
 const mongoose = require('mongoose');
 const router = express.Router();
@@ -33,7 +35,7 @@ app.use((req,res,next)=> {
     res.locals.error_msg = req.flash('error_msg');
     res.locals.error  = req.flash('error');
     next();
-    })
+    });
     
 //Routes
 app.use('/',require('./routes/index'));
